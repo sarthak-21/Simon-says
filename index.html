@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>SimonSays</title>
+  <!-- Bootstrap Scripts -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="icon.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&family=Work+Sans&family=Montserrat:wght@400;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id ="colored">
+  <h1 id="level-title">Press any key to Start</h1>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+      <div type="button" id="red" class="btn red">
+
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+    </div>
+    <h3 class= "instructions-link"><a href="#instructions">For Instructions <img src="https://img.icons8.com/wired/35/ffffff/chevron-down.png"/></a></h3>
+  </div>
+</div>
+  <div id = "instructions">
+    <h2>How to play the Game?</h2>
+    <br>
+    <p class="first-p">Get ready with the mouse in your hand and click on the blinked button to follow the <em>Pattern</em>. Test how long you can memorize the pattern.</p>
+    <br>
+    <h2>Rules of the Game</h2>
+    <h4 class="name-game" >Game: Simon Says</h4>
+    <p><em>For 1 or More Players.</em></p>
+    <br>
+    <h3>Object of the game</h3>
+    <p class="round-border">Correctly repeat a longer and longer sequence of signals</p>
+    <br>
+    <br>
+    <p><u>1-Player Game</u></p>
+    <ol class="points">
+      <li>Slide the ON/OFF switch to ON, the Game Selector switch to "1" and the Skill Level switch to 1,2, 3 or 4.</li>
+      <li>Press any key to start playing the game. Simon will give the first signal.</li>
+      <li>Repeat the signal by pressing the same color lens and the Skill Level switch to 1,2, 3 or 4.</li>
+      <li>Simon will duplicate the first signal and <em>add one</em>.</li>
+      <li>Repeat these two signals by pressing the same color lenses, in order.</li>
+      <li>Continue playing as long as you can repeat each sequence of signals correctly.</li>
+      <li>If you fail to repeat a sequence exactly, Simon responds with a "RAZZ" sound.</li>
+      <li>This means you've lost, and the sequence of signals ends. You can start over by pressing any key.</li>
+    </ol>
+    <br>
+    <h3>End of the Game</h3>
+    <p class="round-border">Repeat the number of sequences for Skill Levels 1, 2, 3 or 4 and Simon will salute you with six short signals from the last lens you pressed.</p>
+    <br>
+    <p><u>2 or More Player Game</u></p>
+    <p>Player may team up or compete with each other</p>
+    <ol class="points">
+      <li>Decide who goes first.</li>
+      <li>Play proceeds as described above except players take turns repeating Simon's signals.</li>
+    </ol>
+    <a href="#colored"><img class= "arrow-up" src="https://img.icons8.com/carbon-copy/80/000000/long-arrow-up.png"/></a>
+  </div>
+
+  <div class="copyright">
+    <p><img src="https://img.icons8.com/pastel-glyph/64/ffffff/brain-3--v1.png"/></p>
+    <p class = "copyright-text">© Copyright 2021 SimonSays</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>

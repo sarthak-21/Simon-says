@@ -1,0 +1,126 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h2{
+  font-weight: 700;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #eeeeee;
+
+}
+
+.arrow-up{
+  margin-left: 1050px;
+}
+
+img, a, a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright{
+  background-color: #011F3f;
+  color: #eeeeee;
+}
+
+.copyright-text{
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.instructions-link{
+  color: #eeeeee;
+}
+
+#colored{
+  background-color: #011F3f;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.round-border{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #bc2401;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.name-game{
+  background-color: #bc2401;
+  color: #fff;
+  font-size: 35px;
+  border-style: solid none;
+  border-width: 5px;
+  border-color: black;
+}
+
+#instructions{
+  background-color: #eeeeee;
+  text-align: left;
+  padding: 30px 300px 30px;
+}
+
+.points{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+li, p{
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Rubik';
+}
+
+.row{
+  margin-left: 25%;
+}
+
+.container {
+  display: block;
+  width: 70%;
+  padding-top: 100px;
+  background-color: #011F3f;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #e40017;
+  border-radius: 10px;
+
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: #323edd;
+}
+
+.yellow {
+  background-color: #ffe227;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
